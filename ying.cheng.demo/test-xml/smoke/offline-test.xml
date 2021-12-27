@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test" parallel="classes" thread-count="1">
+    <listeners>
+    </listeners>
+
+    <!--    <parameter name="property_file" value="config_beta_for_auto.properties"/>-->
+
+    <test name="test" preserve-order="true">
+        <parameter name="team" value="INF"/>
+        <classes>
+            <class name="testcase.Demo"/>
+        </classes>
+
+    </test>
+</suite>
